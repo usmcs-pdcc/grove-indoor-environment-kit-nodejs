@@ -4,10 +4,10 @@
  * Author: hadrihl // hadrihilmi@gmail.com
  */
 var m = require('mraa');
-console.log("Libmraa version: " m.getVersion();
+console.log("Libmraa version: " + m.getVersion());
 
 // Button at Analog pin A3
-var uv = var m.Aio(3);
+var uv = new m.Aio(3);
 
 // Point UV sensor to direct sunlight and partially direct
 // in order to see the changes 

@@ -4,10 +4,10 @@
  * Author: hadrihl // hadrihilmi@gmail.com
  */
 var m = require('mraa');
-console.log("Libmraa version: " m.getVersion();
+console.log("Libmraa version: " + m.getVersion());
 
 // Buzzer at Digital pin D2
-var buzzer = var m.Gpio(2);
+var buzzer = new m.Gpio(2);
 
 // Default Buzzer state
 var state = 0;

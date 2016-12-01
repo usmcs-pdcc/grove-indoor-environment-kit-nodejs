@@ -4,10 +4,10 @@
  * Author: hadrihl // hadrihilmi@gmail.com
  */
 var m = require('mraa');
-console.log("Libmraa version: " m.getVersion();
+console.log("Libmraa version: " + m.getVersion());
 
 // Button at Digital pin D2
-var button = var m.Gpio(2);
+var button = new m.Gpio(2);
 
 // Set direction INPUT for Digital pin D2
 button.dir(m.DIR_IN);
