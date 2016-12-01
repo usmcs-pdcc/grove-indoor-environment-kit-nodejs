@@ -1,0 +1,6 @@
+{
+	"name": "light",
+	"description": "Grove Indoor Environment kit: light sensor",
+	"dependencies": {
+	}
+}

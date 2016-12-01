@@ -1,0 +1,8 @@
+{
+	"name": "temperature&humidity",
+	"description": "Grove Indoor Environment kit: Temperature & Humidity",
+	"dependencies": {
+		"johnny-five": "*",
+		"edison-io": "*"
+	}
+}
